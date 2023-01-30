@@ -1,7 +1,5 @@
 import os
 from tkinter import Tk, filedialog, Label, Entry, Button
-from tkinter import ttk
-from tqdm import tqdm
 
 root = Tk()
 root.title("MP4 to GIF converter")
