@@ -10,7 +10,7 @@ root.geometry("400x300")
 
 def browse_file():
     global file_path
-    file_path = filedialog.askopenfilename(filetypes=(("MP4 files", "*.mp4"), ("All files", "*.*")))
+    file_path = filedialog.askopenfilename(filetypes=(("Video files", ".webm .mp4"), ("All files", "*.*")))
     file_label.config(text=file_path)
     # Get the duration of the MP4 file and set it as the end_time
     data = cv2.VideoCapture(file_path)
